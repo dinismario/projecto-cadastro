@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilos/.css">
+    <link rel="shortcut icon" href="imagens/austronauta.webp" type="image/x-icon">
+</head>
+<body>
+
+    <div id="caixa">
+        <form action="Cadastro.javascript" method="post" autocomplete="off">
+           
+                <fieldset>
+
+                <legend>Documentos Pessoais</legend>
+
+                <div class="label">
+                    <label for="inome">Nome Completo:</label>
+                    <input type="text" name="nome" id="inome" required maxlength="20" minlength="8" class="usar">
+                    
+                </div>
+                <br>
+
+                <div class="label">
+                    <label for="iemail">E-mail:</label>
+                    <input type="email" name="email" id="iemail" required maxlength="35" minlength="10" class="usar">
+                    
+                </div>
+                <br>
+
+                <div class="label">
+                    <label for="itelefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="itelefone" required maxlength="12" class="usar" placeholder="((xxx)-xxx-xxx)">
+                    
+                </div>
+                <br>
+                 
+                <h3>Genero</h3> 
+
+                <div class="sexo">
+                    <input type="radio" name="sexo" id="ifem">
+                    <label for="ifem">Femenino</label>
+                    <input type="radio" name="sexo" id="imas">
+                    <label for="imas">Masculino</label>
+                </div><br>
+
+
+                   <h3>Esportes Favoritos</h3>
+                <div class="esporte">
+                    <input type="checkbox" name="fut" id="ifut">
+                    <label for="ifut" >Futebol</label>
+                    <input type="checkbox" name="Bas" id="ibas">
+                    <label for="ibas" >Basquetebol</label><br>
+                    <input type="checkbox" name="tenis" id="itenis">
+                    <label for="itenis" >Tenis</label>
+                    <input type="checkbox" name="outro" id="ioutro">
+                    <label for="ioutro" >Outro</label></div>
+                    
+                    <p>
+                        <div class="data" id="nascimento">
+                            <label for="idata">Data de nascimento</label>
+                            <input type="date" name="data" id="idata" class="usar">
+                        
+                          </div><br>
+                    </p>
+                
+               <div class="label">
+                   
+                <label for="ipais" >País:</label>
+                    <input type="text" name="pais" id="ipais" required 
+                    minlength="5" class="usar">
+                    
+               </div><br>
+
+                         <div class="label">
+    
+                            <label for="iprovíncia">Província:</label>
+                    <input type="text" name="província" id="iprovíncia" minlength="5" class="usar">
+                    
+                       </div><br>
+                          
+                       <div class="label">
+    
+                    <label for="iende">Endereço:</label>
+                    <input type="text" name="ende" id="iende" required  minlength="5" class="usar">
+                  
+                      </div>
+            <br>
+
+<div >
+    
+                    <input type="submit" value="Enviar" id="enviar" >
+</div>
+
+                </fieldset>
+            
+        </form>
+        <footer id="git">
+        
+            <a href="https//github.com/dinismario"> <img src="imagens/GitHub-Mark.png" alt="GitHub-Mark" ></a>
+        </footer>
+    </div>
+
+</body>
+</html>
